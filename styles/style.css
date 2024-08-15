@@ -222,6 +222,13 @@ input[type='checkbox']:checked + span {
 .button:hover {
   text-decoration: underline;
 }
+.button:focus{
+  outline: none;
+}
+.button:focus-visible{
+  outline: 1px solid white;
+  outline-offset: -3px;
+}
 .more-button {
   padding: 6px;
   width: 100%;
